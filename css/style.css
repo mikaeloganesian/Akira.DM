@@ -1,0 +1,353 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Forbiten";
+}
+
+body {
+  min-width: 1200px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.welcome {
+  width: 100%;
+  height: 1125px;
+  background-image: url("../accets/helloBG.png");
+  background-size: cover;
+}
+.welcome .content {
+  margin-left: 80px;
+  padding-top: 291px;
+}
+.welcome .content .label {
+  color: #000;
+  font-size: 36px;
+  font-weight: 300;
+}
+.welcome .content .title {
+  color: #000;
+  font-family: "FoglihtenNo06";
+  font-size: 48px;
+  font-weight: 300;
+  padding-bottom: 42px;
+}
+.welcome .content .button {
+  font-family: "Helvetica";
+  width: 381px;
+  border: 1px solid #9d9c9a;
+  background-color: rgba(217, 217, 217, 0.4);
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 46px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.welcome .content .kostil {
+  margin-top: 10px;
+  width: 381px;
+}
+.welcome .content .sms {
+  color: #9d9c9a;
+  font-size: 14px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+.our-works {
+  margin-top: 138px;
+  height: 1652px;
+}
+.our-works .blocks {
+  width: 100%;
+  height: 1490px;
+}
+.our-works .blocks .work {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #9d9c9a;
+}
+.our-works .blocks .work-1 {
+  width: 740px;
+  height: 329px;
+  background: #d9d9d9;
+  left: 140px;
+  margin-top: 104px;
+}
+.our-works .blocks .work-2 {
+  width: 382px;
+  height: 382px;
+  right: 140px;
+  margin-top: 240px;
+}
+.our-works .blocks .work-3 {
+  width: 382px;
+  height: 901px;
+  margin-top: 480px;
+  left: 235px;
+  background: #d9d9d9;
+}
+.our-works .blocks .work-4 {
+  width: 470px;
+  height: 499px;
+  right: 140px;
+  margin-top: 680px;
+}
+.our-works .blocks .work-5 {
+  width: 740px;
+  height: 329px;
+  margin-top: 1290px;
+  z-index: -1;
+  left: 140px;
+}
+.our-works .label {
+  float: right;
+  margin-right: 80px;
+  font-size: 46px;
+}
+.our-works .text {
+  width: 246px;
+  font-family: "Helvetica";
+  float: right;
+  margin-right: 140px;
+}
+
+.break {
+  width: 100%;
+  height: 578px;
+  background-image: url("../accets/break.png");
+  background-size: 100%;
+  margin-top: 220px;
+}
+
+.color {
+  margin-top: 200px;
+  width: 100%;
+}
+.color .label {
+  text-align: center;
+  font-size: 48px;
+}
+.color .banner {
+  margin-top: 22px;
+  width: 100%;
+  height: 705px;
+  background-image: url("../accets/colorBG.jpg");
+  background-size: 100%;
+}
+.color .banner .block {
+  padding-top: 108px;
+}
+.color .banner .block .label {
+  color: #ffffff;
+  text-align: left;
+  font-size: 128px;
+  margin-left: 125px;
+}
+
+.d3 {
+  width: 100%;
+  margin-top: 200px;
+}
+.d3 .label {
+  width: 389px;
+  height: 122px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../accets/notOnly3D.png");
+}
+.d3 .banner {
+  width: 100%;
+  height: 298px;
+  background-image: url("../accets/3dBanner.jpg");
+  background-size: 100% 100%;
+  margin-top: 20px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.22);
+}
+.d3 .content {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.d3 .content .armchair {
+  margin-top: -40px;
+  z-index: -1;
+}
+.d3 .content .label-block .second-label {
+  font-size: 128px;
+}
+.d3 .content .label-block .kostil-dwa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.d3 .content .label-block .kostil-dwa .kostil-tri .button {
+  margin-top: 69px;
+  font-family: "Helvetica";
+  width: 381px;
+  border: 1px solid #9d9c9a;
+  background-color: rgba(217, 217, 217, 0.4);
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 46px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.d3 .content .label-block .kostil-dwa .kostil-tri .kostil {
+  margin-top: 10px;
+  width: 381px;
+}
+.d3 .content .label-block .kostil-dwa .kostil-tri .sms {
+  color: #9d9c9a;
+  font-size: 14px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+.break-section {
+  margin-top: 200px;
+  width: 100%;
+  height: 57px;
+  background-image: url("../accets/break-section.png");
+}
+
+.info {
+  width: 100%;
+  padding-top: 200px;
+  display: inline-flex;
+  align-items: flex-start;
+}
+.info .left-block-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 711px;
+  background-image: url("../accets/infoBG.jpg");
+}
+.info .left-block-info .content .info-label {
+  font-size: 36px;
+  text-align: center;
+}
+.info .left-block-info .content .info-text {
+  margin-top: 20px;
+  width: 560px;
+  font-family: "Helvetica";
+}
+.info .right-block-choose {
+  margin-left: 26px;
+}
+.info .right-block-choose .choose {
+  font-size: 20px;
+  font-family: "Helvetica";
+  margin-bottom: 49px;
+}
+.info .right-block-choose .choosen {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.rewiew {
+  padding-bottom: 200px;
+  margin-top: 200px;
+  width: 100%;
+}
+.rewiew .design {
+  z-index: -1;
+  position: absolute;
+  right: 91px;
+  margin-top: 0;
+  display: inline-block;
+  width: auto;
+}
+.rewiew .design .label {
+  font-size: 128px;
+}
+.rewiew .design .rewiewBG {
+  display: block;
+  margin: 0px auto;
+  width: 445px;
+}
+.rewiew .rewiew-block {
+  width: 673px;
+  height: 405px;
+  background: rgba(217, 217, 217, 0.4);
+  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 125px;
+}
+.rewiew .rewiew-block .label-inline {
+  margin-top: 15px;
+  display: inline-flex;
+  align-items: center;
+}
+.rewiew .rewiew-block .label-inline .label {
+  font-size: 36px;
+  margin-left: 20px;
+}
+.rewiew .rewiew-block .label-inline .buttons {
+  margin-left: 274px;
+}
+.rewiew .rewiew-block .label-inline .buttons .UIButton {
+  margin-right: 22px;
+  width: 28px;
+  height: 28px;
+}
+.rewiew .rewiew-block .work {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.rewiew .rewiew-block .text {
+  font-size: 20px;
+  font-family: "Helvetica";
+  margin-left: 31px;
+  width: 538px;
+  margin-top: 30px;
+}
+.rewiew .kostil-dwa {
+  margin-left: 125px;
+  width: 30%;
+  justify-content: left;
+}
+.rewiew .kostil-dwa .kostil-tri .button {
+  margin-top: 69px;
+  font-family: "Helvetica";
+  width: 381px;
+  border: 1px solid #9d9c9a;
+  background-color: rgba(217, 217, 217, 0.4);
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 46px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.rewiew .kostil-dwa .kostil-tri .kostil {
+  margin-top: 10px;
+  width: 381px;
+}
+.rewiew .kostil-dwa .kostil-tri .sms {
+  color: #9d9c9a;
+  font-size: 14px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+.break-line {
+  width: 100%;
+  height: 1px;
+  background-color: #bdbdbd;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+@font-face {
+  font-family: "Forbiten";
+  src: url("../fonts/FoglihtenNo06_076.otf");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/4215-font.otf");
+}
+
+/*# sourceMappingURL=style.css.map */
