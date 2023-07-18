@@ -5,70 +5,26 @@
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/rewiew.js"></script>
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+    <script src="scripts/app.js" defer></script>
     <title>Akira.DM</title>
 </head>
 
 <body>
-    <div class="welcome">
-        <div class="content">
-            <div class="label">AkiRa.dM</div>
-            <div class="title">профессиональная WEB студия</div>
-            <div class="button">Связаться с нами</div>
-            <div class="kostil">
-                <div class="sms">Отправляя заявку, пожалуйста, кратко опишите <br>
-                    Ваше задание и дайте контакты для обратной связи</div>
-            </div>
-        </div>
-    </div>
+    <div id="smooth-wrapper">
+        <div id="smooth-content">
+            <div class="welcome">
+                <div data-speed="0.7" class="content welcome-content">
+                    <div class="label welcome-label">AkiRa.dM</div>
+                    <div class="title welcome-title">профессиональная WEB студия</div>
+                    <div class="kostil-dwa">
+                        <a style="text-decoration: none; color: #000000;" href="https://t.me/akiraDManager">
+                            <div class="button">Связаться с нами</div>
+                        </a>
 
-    <div class="our-works">
-        <div class="label">НАШИ РАБОТЫ</div>
-        <div class="blocks">
-            <div class="work-1 work"></div>
-            <div class="work-2 work"></div>
-            <div class="work-3 work"></div>
-            <div class="work-4 work"></div>
-            <div class="work-5 work"></div>
-        </div>
-        <div class="text">
-            С 2016 года мы помогаем людям выразить себя с помощью фирменного дизайна, красивых логотипов,
-            стильных веб сайтов и многого другого.
-            <br><br>
-            Мы гарантируем, что наши работы - это не просто набор картинок и векторов. Мы
-            создаем стиль.
-        </div>
-    </div>
-
-    <div class="break"></div>
-
-    <div class="color">
-        <div class="label">
-            <span style="color: #FF0000;">И </span><span style="color: #FFB800;">Н</span><span style="color: #9EE900;">Е
-            </span>
-            <span style="color: #00EE5F;">Т</span><span style="color: #00B2FF;">О</span><span
-                style="color: #0029FF;">Л</span><span style="color: #DB00FF;">Ь</span><span
-                style="color: #FF00C7;">К</span><span style="color: #FF0000;">O</span>
-            <span style="color: #FFFFFF; background-color: #000000;">ЧЕРНО</span>-БЕЛЫЙ
-        </div>
-        <div class="banner">
-            <div class="block">
-                <div class="label">НО</div>
-                <div class="label">И</div>
-                <div class="label">ЦВЕТНОЙ</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="d3">
-        <div class="label"></div>
-        <div class="banner"></div>
-        <div class="content">
-            <img class="armchair" src="accets/armchair.jpg" alt="">
-            <div class="label-block">
-                <div class="second-label">НО даже 3D</div>
-                <div class="kostil-dwa">
-                    <div class="kostil-tri">
-                        <div class="button">Связаться с нами</div>
                         <div class="kostil">
                             <div class="sms">Отправляя заявку, пожалуйста, кратко опишите <br>
                                 Ваше задание и дайте контакты для обратной связи</div>
@@ -76,84 +32,238 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div class="break-section"></div>
-
-    <div class="info">
-        <div class="left-block-info">
-            <div class="content">
-                <div class="info-label">Программирование</div>
-                <div class="info-text">
-                    Программирование включает в себя как разработку систем,
-                    так и логистические решения, создание схем работы, разработку
-                    mvp и многого другого.
+            <div class="our-works">
+                <div class="label">НАШИ РАБОТЫ</div>
+                <div class="blocks">
+                    <div data-speed="0.9" class="work-1 work"></div>
+                    <div data-speed="0.95" class="work-2 work"></div>
+                    <div data-speed="0.85" class="work-3 work"></div>
+                    <div data-speed="0.9" class="work-4 work"></div>
+                    <div data-speed="0.95" class="work-5 work"></div>
+                </div>
+                <div class="text">
+                    С 2016 года мы помогаем людям выразить себя с помощью фирменного дизайна, красивых логотипов,
+                    стильных веб сайтов и многого другого.
                     <br><br>
-                    Наша студия относится к каждому проекту с ответственностью,
-                    что позволяет каждому заказу быть максимально эффективным.
-                    В нашей команде - 4 профессиональных программиста как под
-                    IOS и Android, так и под Windows-Desktop.
-                    <br><br>
-                    Стоимость готового решения в сфере программирования начи-
-                    нается с $250.
-                    <br><br>
-                    Если Вы поняли, что Ваша задача подходит под эту категорию,
-                    то во время заполнения анкеты, в графе “Сфера заказа”,
-                    пожалуйста, выберите “Программирование”.
+                    Мы гарантируем, что наши работы - это не просто набор картинок и векторов. Мы
+                    создаем стиль.
                 </div>
             </div>
-        </div>
-        <div class="right-block-choose">
-            <div class="choose">Дизайн</div>
-            <div class="choose choosen">Программирование</div>
-            <div class="choose">Маркетинг</div>
-            <div class="choose">Продвижение</div>
-            <div class="choose">Web-страницы</div>
-            <div class="choose">Монтаж</div>
-            <div class="choose">Обработка звука</div>
-            <div class="choose">Постпроизводство</div>
-            <div class="choose">CEO настройка</div>
-            <div class="choose">Консультации</div>
-        </div>
-    </div>
 
-    <div class="rewiew">
-        <div class="design">
-            <img class="rewiewBG" src="/accets/rewiewBG.png" alt="">
-            <div class="label">ОТЗЫВЫ</div>
-        </div>
-        <div class="rewiew-block">
-            <div class="label-inline">
-                <div class="label">Илья Осипов</div>
-                <div class="buttons">
-                    <img class="UIButton" src="/accets/toLeft.png" alt="">
-                    <img class="UIButton" src="/accets/toRight.png" alt="">
+            <div class="break"></div>
+
+            <div class="color">
+                <div class="label">
+                    <span style="color: #FF0000;">И </span><span style="color: #FFB800;">Н</span><span
+                        style="color: #9EE900;">Е
+                    </span>
+                    <span style="color: #00EE5F;">Т</span><span style="color: #00B2FF;">О</span><span
+                        style="color: #0029FF;">Л</span><span style="color: #DB00FF;">Ь</span><span
+                        style="color: #FF00C7;">К</span><span style="color: #FF0000;">O</span>
+                    <span style="color: #FFFFFF; background-color: #000000;">ЧЕРНО</span>-БЕЛЫЙ
+                </div>
+                <div class="banner">
+                    <div class="block">
+                        <div class="label">НО</div>
+                        <div class="label">И</div>
+                        <div class="label">ЦВЕТНОЙ</div>
+                    </div>
                 </div>
             </div>
-            <div class="work">Одностраничный сайт-визитка</div>
-            <div class="text">
-                Обратился к Akir’е в 2021 году, необходимо было сделать
-                небольшой сайт-визитку для нашего стартапа.
-                <br><br>
-                С самого начала помогли разобраться и скорректировать
-                тех-задание. Назначили сроки, договорились о цене.
-                Работа была сделана раньше на 2 рабочих дня. Правок не
-                потребовалось.
+
+            <div class="d3">
+                <div class="label"></div>
+                <div class="banner"></div>
+                <div class="content">
+                    <img data-speed="0.85" class="armchair" src="accets/armchair.jpg" alt="">
+                    <div data-speed="0.95" class="label-block">
+                        <div class="second-label">НО даже 3D</div>
+                        <div class="kostil-dwa">
+                            <div data-speed="0.9" class="kostil-tri">
+                                <a style="text-decoration: none; color: #000000;" href="https://t.me/akiraDManager">
+                                    <div class="button">Связаться с нами</div>
+                                </a>
+                                <div class="kostil">
+                                    <div class="sms">Отправляя заявку, пожалуйста, кратко опишите <br>
+                                        Ваше задание и дайте контакты для обратной связи</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="kostil-dwa">
-            <div class="kostil-tri">
-                <div class="button">Связаться с нами</div>
+
+            <div class="break-section"></div>
+
+            <div class="info">
+                <div class="left-block-info">
+                    <div class="content">
+                        <div id="info-label" class="info-label">Программирование</div>
+                        <div id="info-text" class="info-text">
+                            Программирование включает в себя как разработку систем,
+                            так и логистические решения, создание схем работы, разработку
+                            mvp и многого другого.
+                            <br><br>
+                            Наша студия относится к каждому проекту с ответственностью,
+                            что позволяет каждому заказу быть максимально эффективным.
+                            В нашей команде - 4 профессиональных программиста как под
+                            IOS и Android, так и под Windows-Desktop.
+                            <br><br>
+                            Стоимость готового решения в сфере программирования начинается с $250.
+                            <br><br>
+                            Если Вы поняли, что Ваша задача подходит под эту категорию,
+                            то во время заполнения анкеты, в графе “Сфера заказа”,
+                            пожалуйста, выберите “Программирование”.
+                        </div>
+                    </div>
+                </div>
+                <div class="right-block-choose">
+                    <div id="DesignCategory"
+                        onclick="ChooseInfo('Дизайн', 'DesignCategory', 'Дизайн является основой любой маркетинговой сферы, позволяя реализовывать самые смелые идеи в короткие сроки и привлекать большое количество целевой аудитории. <br><br> Дизайн - одна из целевых сфер нашей компании. Практикуя самые современные идеи первыми на российском рынке, мы уже более 5 лет выражаем мысли наших заказчиков на холсте. <br><br> Стоимость готового решения в сфере дизайна начинается с 30$. <br><br> Если Вы поняли, что Ваша задача подходит под эту категорию, то во время заполнения анкеты, в графе “Сфера заказа”, пожалуйста, выберите “Дизайн”.')"
+                        class="choose">Дизайн</div>
+                    <div id="CodingCategory"
+                        onclick="ChooseInfo('Программирование', 'CodingCategory', 'Программирование включает в себя как разработку систем, так и логистические решения, создание схем работы, разработку mvp и многого другого. <br><br>Наша студия относится к каждому проекту с ответственностью, что позволяет каждому заказу быть максимально эффективным. В нашей команде - 4 профессиональных программиста как под IOS и Android, так и под Windows-Desktop. <br><br> Стоимость готового решения в сфере программирования начинается с $250. <br><br> Если Вы поняли, что Ваша задача подходит под эту категорию, то во время заполнения анкеты, в графе “Сфера заказа”, пожалуйста, выберите “Программирование”.')"
+                        class="choose choosen">Программирование</div>
+                    <div id="MarketingCategory"
+                        onclick="ChooseInfo('Маркетинг', 'MarketingCategory', 'Маркетинг подразумевает под собой аналитику процессов взаимосвязи товара с потребителем. То, как завернут подарок - половина удовольствия от процесса его получения. <br><br>Akira.DM предоставляет услуги профессиональных бизнес-аналитиков, маркетологов, PR-специалистов, которые с удовольствием выполнят Ваш заказ в нужные сроки. <br><br> Стоимость продвижения продукта начинается с 400$. Стоимость анализа эффективности продукта начинается с 200$. <br><br> Если Вы поняли, что Ваша задача подходит под эту категорию, то во время заполнения анкеты, в графе “Сфера заказа”, пожалуйста, выберите “Маркетинг”.')"
+                        class="choose">Маркетинг
+                    </div>
+                    <div id="UpCategory"
+                        onclick="ChooseInfo('Продвижение', 'UpCategory', 'Продвижение связывает в себе маркетинг, SEO настройку и дизайн. Продвигая продукт, наша компания напрямую взаимодействует с ним, предлагая векторы развития и улучшая эффективность рекламы. <br><br> Все процессы развития продукта и его продвижения мы документируем, а в конце каждого месяца присылаем отчетность о проделанной работе. Вы сами будете следить за тем, насколько мы оправдываем свое имя и свою репутацию. <br><br> Стоимость продвижения от Akira.DM начинается с 500$. <br><br> Если Вы поняли, что Ваша задача подходит под эту категорию, то во время заполнения анкеты, в графе “Сфера заказа”, пожалуйста, выберите “Продвижение”.')"
+                        class="choose">Продвижение</div>
+                    <div id="WebPagesCategory"
+                        onclick="ChooseInfo('Web-страницы', 'WebPagesCategory', 'Web-страницы - целевое направление деятельности нашей студии. Сайт, будь то одностраничник или интернет-магазин, является нитью между продуктом и пользователем. То, как выглядит и как написан сайт, говорит о том, что за продукт перед Вами находится. <br><br> Наши web-страницы - это гарантия качества. Большего и не нужно. <br><br> Стоимость готового решения в сфере web-страниц начинается с 200$. <br><br> Если Вы поняли, что Ваша задача подходит под эту категорию, то во время заполнения анкеты, в графе “Сфера заказа”, пожалуйста, выберите “Web-страницы”.')"
+                        class="choose">
+                        Web-страницы</div>
+                    <div id="MontageCategory"
+                        onclick="ChooseInfo('Монтаж', 'MontageCategory', 'В процессы, которыми владеет наша студия, также входит и монтаж и видеообработка. Наши клиенты видят точное исполнение технического задания и четкость в сроках работы. <br><br> Будь то простая обработка с нарезкой кадров, или сложные эффекты и анимации - мы гарантируем, что все будет выполнено в лучшем виде. <br><br> Стоимость обработки одного видеофайла начинается с 40$. <br><br> Если Вы поняли, что Ваша задача подходит под эту категорию, то во время заполнения анкеты, в графе “Сфера заказа”, пожалуйста, выберите “Монтаж”.')"
+                        class="choose">Монтаж</div>
+                    <div id="SoundsCategory"
+                        onclick="ChooseInfo('Обработка звука', 'SoundsCategory', 'Звук - один из важных объектов готового проекта, которому просто необходимо быть на уровне со всем остальным. <br><br>Премиальному проекту просто необходим качественный звук, который достигается не только качественными инструментами, но и постобработкой. В Akira.DM работают профессионалы работы с аудио, у которых есть опыт работы как с масштабными проектами, так и с аудиотреками современных исполнителей. <br><br> Стоимость обработки звука начинается с 60$. <br><br> Если Вы поняли, что Ваша задача подходит под эту категорию, то во время заполнения анкеты, в графе “Сфера заказа”, пожалуйста, выберите “Обработка звука”. ')"
+                        class="choose">Обработка
+                        звука</div>
+                    <div id="PostprodCategory"
+                        onclick="ChooseInfo('Постпроизводство', 'PostprodCategory', 'Постпроизводство - это спектр многих процессов обработки как видео, так и аудио материалов. <br><br> Спецэффекты, FX-дизайн, фильтры, качественный звук и многое другое - все это входит в постпродакшн. Наши специалисты с удовольствием займутся Вашим проектом. В стоимость также включены правки и полное соответствие техническому заданию. <br><br> Стоимость полного набора обработки контента начинается с 200$. <br><br> Если Вы поняли, что Ваша задача подходит под эту категорию, то во время заполнения анкеты, в графе “Сфера заказа”, пожалуйста, выберите “Постпроизводство”.')"
+                        class="choose">
+                        Постпроизводство</div>
+                    <div id="SEOCategory"
+                        onclick="ChooseInfo('SEO настройка', 'SEOCategory', 'SEO - настройка того, как Ваш продукт видят браузеры. То, как проведена SEO настройка, напрямую влияет на показатели среднемесячных посещений и покупок. <br><br> Сферой настройки SEO в Akira.DM занимаются те же люди, что и сферой маркетинга и продвижения. Правильная поисковая оптимизация позволит привлечь клиентов в максимально короткие сроки. <br><br> Стоимость готового решения в сфере SEO начинается с 100$. <br><br> Если Вы поняли, что Ваша задача подходит под эту категорию, то во время заполнения анкеты, в графе “Сфера заказа”, пожалуйста, выберите “SEO настройка”.')"
+                        class="choose">SEO настройка
+                    </div>
+                    <div id="ConsultationCategory"
+                        onclick="ChooseInfo('Консультации', 'ConsultationCategory', 'Иногда для удачного завершения проекта необходимо только знать ответы на некоторые вопросы. Именно этим и занимается сфера консультаций. <br><br> Если Вы понимаете, что для продукта не нужно готовое решение, а лишь информация по определенной сфере деятельности, то специалисты Akira.DM с удовольствием ответят на все интересующие Вас вопросы. <br><br> Стоимость консультаций в разных сферах отличается друг от друга, но начинается с 20$ за встречу. <br><br> Если Вы поняли, что Ваша задача подходит под эту категорию, то во время заполнения анкеты, в графе “Сфера заказа”, пожалуйста, выберите “Консультации”.')"
+                        class="choose">
+                        Консультации</div>
+                </div>
+            </div>
+
+            <div class="rewiew">
+                <div data-speed="0.8" class="design">
+                    <img class="rewiewBG" src="/accets/rewiewBG.png" alt="">
+                    <div class="label">ОТЗЫВЫ</div>
+                </div>
                 <div class="kostil">
-                    <div class="sms">Отправляя заявку, пожалуйста, кратко опишите <br>
-                        Ваше задание и дайте контакты для обратной связи</div>
+                    <div class="rewiew-block">
+                        <div class="label-inline">
+                            <div id="rewiewLabel" class="label rewiewLabel">Илья Осипов</div>
+                            <div class="buttons">
+                                <img onclick="getRewiewBack()" class="UIButton" src="/accets/toLeft.png" alt="">
+                                <img onclick="getRewiewNext()" class="UIButton" src="/accets/toRight.png" alt="">
+                            </div>
+                        </div>
+                        <div id="rewiewArea" class="work rewiewArea">Одностраничный сайт-визитка</div>
+                        <div id="rewiewText" class="text rewiewText">
+                            Обратился к Akir’е в 2021 году, необходимо было сделать
+                            небольшой сайт-визитку для нашего стартапа.
+                            <br><br>
+                            С самого начала помогли разобраться и скорректировать
+                            тех-задание. Назначили сроки, договорились о цене.
+                            Работа была сделана раньше на 2 рабочих дня. Правок не
+                            потребовалось.
+                        </div>
+                    </div>
                 </div>
+                <div class="kostil-dwa">
+                    <div class="kostil-tri">
+                        <a style="text-decoration: none; color: #000000;" href="https://t.me/akiraDManager">
+                            <div class="button">Связаться с нами</div>
+                        </a>
+                        <div class="kostil">
+                            <div class="sms">Отправляя заявку, пожалуйста, кратко опишите <br>
+                                Ваше задание и дайте контакты для обратной связи</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="break-line"></div>
+
+            <div class="akira-banner">
+                <div class="label akira-banner-label">AKIRa.DM</div>
+                <div class="kostil-dwa">
+                    <div class="kostil-tri">
+                        <a style="text-decoration: none; color: #FFFFFF;" href="https://t.me/akiraDManager">
+                            <div class="button">Связаться с нами</div>
+                        </a>
+                        <div class="kostil">
+                            <div class="sms">Отправляя заявку, пожалуйста, кратко опишите <br>
+                                Ваше задание и дайте контакты для обратной связи</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="feetback" class="feedback">
+                <div class="label">Оставьте заявку сейчас</div>
+                <div class="content">
+                    <div class="feedback-blocks">
+                        <div class="first-row">
+                            <div class="feedback-block">
+                                <div class="title">Имя / Name</div>
+                                <div class="block"><input maxlength="20" placeholder="Andrew" type="text"></div>
+                            </div>
+                            <div class="feedback-block">
+                                <div class="title">Номер / Phone</div>
+                                <div class="block"><input maxlength="20" placeholder="+7-962-125-31-32" type="text">
+                                </div>
+                            </div>
+                            <div class="feedback-block">
+                                <div class="title">Сроки / Deadline</div>
+                                <div class="block"><input maxlength="20" placeholder="2 weaks" type="text"></div>
+                            </div>
+                        </div>
+                        <div id="email" class="feedback-block">
+                            <div class="title">Почта / Email</div>
+                            <div id="email-block" class="block"><input maxlength="50" placeholder="order@gmail.com"
+                                    type="text">
+                            </div>
+                        </div>
+
+                        <div id="task" class="feedback-block">
+                            <div class="title">Задача / Task</div>
+                            <div id="task-block" class="block"><input maxlength="50"
+                                    placeholder="Создать веб-сайт для фитнес-клуба" type="text"></div>
+                        </div>
+                        <div class="bottom-blocks">
+                            <div id="area" class="feedback-block">
+                                <div class="title">Сфера заказа / Order area</div>
+                                <div id="area-block" class="block"><input maxlength="40" placeholder="Web-страницы"
+                                        type="text">
+                                </div>
+                            </div>
+                            <a style="color: #FFFFFF; text-decoration: none;" href="rewiew.html">
+                                <div class="send-message">ОТПРАВИТь</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-label">Akira.DM</div>
             </div>
         </div>
     </div>
-
-    <div class="break-line"></div>
+    <script src="scripts/info.js"></script>
 </body>
 
 </html>
