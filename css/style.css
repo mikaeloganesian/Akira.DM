@@ -325,7 +325,7 @@ body {
   margin-left: 20px;
 }
 .rewiew .rewiew-block .label-inline .buttons {
-  margin-right: 80px;
+  margin-right: 30px;
 }
 .rewiew .rewiew-block .label-inline .buttons .UIButton {
   cursor: pointer;
@@ -667,7 +667,7 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    width: 60%;
+    width: 80%;
   }
   .info .right-block-choose {
     margin-top: 60px;
@@ -705,10 +705,7 @@ body {
     margin-top: 15px;
   }
   .rewiew .rewiew-block .label-inline .label {
-    font-size: 30px;
-  }
-  .rewiew .rewiew-block .label-inline .buttons {
-    margin-left: 30px;
+    font-size: 24px;
   }
   .rewiew .rewiew-block .text {
     width: 80%;
@@ -776,6 +773,792 @@ body {
   -webkit-box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
   -moz-box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
   box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Forbiten";
+}
+
+body {
+  min-width: 500px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.welcome {
+  width: 100%;
+  height: 1125px;
+  background-image: url("../accets/helloBG.png");
+  background-size: cover;
+}
+.welcome .content {
+  will-change: transform;
+  margin-left: 80px;
+  padding-top: 291px;
+}
+.welcome .content .label {
+  color: #000;
+  font-size: 36px;
+  font-weight: 300;
+}
+.welcome .content .title {
+  color: #000;
+  font-family: "FoglihtenNo06";
+  font-size: 48px;
+  font-weight: 300;
+  padding-bottom: 42px;
+}
+.welcome .content .button {
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: "Helvetica";
+  width: 381px;
+  border: 1px solid #9d9c9a;
+  background-color: rgba(217, 217, 217, 0.4);
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 46px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.welcome .content .button:hover {
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+  -moz-box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+  box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+}
+.welcome .content .kostil {
+  margin-top: 10px;
+  width: 381px;
+}
+.welcome .content .sms {
+  color: #9d9c9a;
+  font-size: 14px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+.our-works {
+  margin-top: 138px;
+  height: 1652px;
+}
+.our-works .blocks {
+  width: 100%;
+  height: 1490px;
+}
+.our-works .blocks .work {
+  will-change: transform;
+  box-shadow: 0px 0px 20px 4px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #9d9c9a;
+}
+.our-works .blocks .work-1 {
+  background-image: url("../accets/works Akira.DM/aura.png");
+  background-size: 100%;
+  width: 740px;
+  height: 329px;
+  left: 140px;
+  margin-top: 104px;
+}
+.our-works .blocks .work-2 {
+  background-image: url("../accets/works Akira.DM/tattoo.jpg");
+  background-size: 100%;
+  width: 382px;
+  height: 382px;
+  right: 140px;
+  margin-top: 240px;
+}
+.our-works .blocks .work-3 {
+  background-image: url("../accets/works Akira.DM/IUseMobile.jpg");
+  background-size: 100%;
+  width: 382px;
+  height: 701px;
+  margin-top: 480px;
+  left: 235px;
+}
+.our-works .blocks .work-4 {
+  background-image: url("../accets/works Akira.DM/maket.png");
+  background-size: 100%;
+  width: 470px;
+  height: 709px;
+  right: 140px;
+  margin-top: 680px;
+}
+.our-works .blocks .work-5 {
+  background-image: url("../accets/works Akira.DM/IUsePC.jpg");
+  background-size: 100%;
+  width: 740px;
+  height: 329px;
+  margin-top: 1290px;
+  z-index: -1;
+  left: 140px;
+}
+.our-works .label {
+  float: right;
+  margin-right: 80px;
+  font-size: 46px;
+}
+.our-works .text {
+  width: 246px;
+  font-family: "Helvetica";
+  float: right;
+  margin-right: 140px;
+}
+
+.break {
+  width: 100%;
+  height: 578px;
+  background-image: url("../accets/break.png");
+  background-size: 100%;
+  margin-top: 220px;
+}
+
+.color {
+  margin-top: 200px;
+  width: 100%;
+}
+.color .label {
+  text-align: center;
+  font-size: 48px;
+}
+.color .banner {
+  margin-top: 22px;
+  width: 100%;
+  height: 705px;
+  background-image: url("../accets/colorBG.png");
+  background-size: 100%;
+}
+.color .banner .block {
+  padding-top: 108px;
+}
+.color .banner .block .label {
+  color: #ffffff;
+  text-align: left;
+  font-size: 128px;
+  margin-left: 125px;
+}
+
+.d3 {
+  width: 100%;
+  margin-top: 200px;
+}
+.d3 .label {
+  width: 389px;
+  height: 122px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("../accets/notOnly3D.png");
+}
+.d3 .banner {
+  width: 100%;
+  height: 298px;
+  background-image: url("../accets/3dBanner.jpg");
+  background-size: 100% 100%;
+  margin-top: 20px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.22);
+}
+.d3 .content {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.d3 .content .armchair {
+  will-change: transform;
+  margin-top: -40px;
+  z-index: -1;
+}
+.d3 .content .label-block .second-label {
+  font-size: 128px;
+}
+.d3 .content .label-block .kostil-dwa {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.d3 .content .label-block .kostil-dwa .kostil-tri .button {
+  cursor: pointer;
+  margin-top: 69px;
+  font-family: "Helvetica";
+  width: 381px;
+  border: 1px solid #9d9c9a;
+  background-color: rgba(217, 217, 217, 0.4);
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 46px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  transition: 0.3s;
+}
+.d3 .content .label-block .kostil-dwa .kostil-tri .button:hover {
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+  -moz-box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+  box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+}
+.d3 .content .label-block .kostil-dwa .kostil-tri .kostil {
+  margin-top: 10px;
+  width: 381px;
+}
+.d3 .content .label-block .kostil-dwa .kostil-tri .sms {
+  color: #9d9c9a;
+  font-size: 14px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+.break-section {
+  margin-top: 200px;
+  width: 100%;
+  height: 57px;
+  background-image: url("../accets/break-section.png");
+}
+
+.info {
+  width: 100%;
+  padding-top: 200px;
+  display: inline-flex;
+  align-items: flex-start;
+}
+.info .left-block-info {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 711px;
+  background-image: url("../accets/infoBG.jpg");
+  background-size: 100%;
+}
+.info .left-block-info .content .info-label {
+  margin-top: 150px;
+  font-size: 36px;
+  text-align: center;
+}
+.info .left-block-info .content .info-text {
+  margin-top: 20px;
+  width: 560px;
+  font-family: "Helvetica";
+}
+.info .right-block-choose {
+  margin-left: 26px;
+}
+.info .right-block-choose .choose {
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Helvetica";
+  margin-bottom: 49px;
+}
+
+.choosen {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+#smooth-content {
+  will-change: transform;
+}
+
+.rewiew {
+  padding-bottom: 200px;
+  margin-top: 200px;
+  width: 100%;
+}
+.rewiew .design {
+  will-change: transform;
+  z-index: -1;
+  position: absolute;
+  right: 91px;
+  margin-top: 0;
+  display: inline-block;
+  width: auto;
+}
+.rewiew .design .label {
+  font-size: 128px;
+}
+.rewiew .design .rewiewBG {
+  display: block;
+  margin: 0px auto;
+  width: 445px;
+}
+.rewiew .rewiew-block {
+  width: 673px;
+  height: 405px;
+  background: rgba(217, 217, 217, 0.4);
+  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 125px;
+}
+.rewiew .rewiew-block .label-inline {
+  width: 100%;
+  margin-top: 15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.rewiew .rewiew-block .label-inline .label {
+  font-size: 36px;
+  margin-left: 20px;
+}
+.rewiew .rewiew-block .label-inline .buttons {
+  margin-right: 30px;
+}
+.rewiew .rewiew-block .label-inline .buttons .UIButton {
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 22px;
+  width: 28px;
+  height: 28px;
+}
+.rewiew .rewiew-block .label-inline .buttons .UIButton:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.rewiew .rewiew-block .work {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.rewiew .rewiew-block .text {
+  font-size: 20px;
+  font-family: "Helvetica";
+  margin-left: 31px;
+  width: 538px;
+  margin-top: 30px;
+}
+.rewiew .kostil-dwa {
+  margin-left: 125px;
+  width: 30%;
+  justify-content: left;
+}
+.rewiew .kostil-dwa .kostil-tri .button {
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 69px;
+  font-family: "Helvetica";
+  width: 381px;
+  border: 1px solid #9d9c9a;
+  background-color: rgba(217, 217, 217, 0.4);
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 46px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.rewiew .kostil-dwa .kostil-tri .button:hover {
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+  -moz-box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+  box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+}
+.rewiew .kostil-dwa .kostil-tri .kostil {
+  margin-top: 10px;
+  width: 381px;
+}
+.rewiew .kostil-dwa .kostil-tri .sms {
+  color: #9d9c9a;
+  font-size: 14px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+.break-line {
+  width: 100%;
+  height: 1px;
+  background-color: #bdbdbd;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.akira-banner {
+  margin-bottom: 200px;
+  width: 100%;
+  height: 458px;
+  background-image: url("../accets/akiraBannerBG.jpg");
+  background-size: 100%;
+}
+.akira-banner .label {
+  color: #ffffff;
+  font-size: 128px;
+  text-align: center;
+  padding-top: 88px;
+}
+.akira-banner .kostil-dwa {
+  display: flex;
+  justify-content: center;
+}
+.akira-banner .kostil-dwa .kostil-tri .button {
+  cursor: pointer;
+  transition: 0.3s;
+  color: #ffffff;
+  margin-top: 30px;
+  font-family: "Helvetica";
+  width: 381px;
+  border: 1px solid #ffffff;
+  background-color: rgba(217, 217, 217, 0.4);
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 46px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.akira-banner .kostil-dwa .kostil-tri .button:hover {
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 0px 36px -6px rgba(255, 255, 255, 0.2);
+  -moz-box-shadow: 0px 0px 36px -6px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 36px -6px rgba(255, 255, 255, 0.2);
+}
+.akira-banner .kostil-dwa .kostil-tri .kostil {
+  margin-top: 10px;
+  width: 381px;
+}
+.akira-banner .kostil-dwa .kostil-tri .sms {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Helvetica";
+  text-align: center;
+}
+
+.feedback {
+  margin-bottom: 200px;
+  width: 100%;
+  background-image: url("../accets/feetbackBG.png");
+  background-size: 100%;
+}
+.feedback .label {
+  font-size: 48px;
+  margin-left: 80px;
+  margin-bottom: 2px;
+}
+.feedback .content {
+  display: flex;
+  justify-content: center;
+  margin-top: 66px;
+  width: 100%;
+}
+.feedback .content .feedback-blocks {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.feedback .content .feedback-blocks .first-row {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feedback .content .feedback-blocks .feedback-block {
+  margin-bottom: 35px;
+}
+.feedback .content .feedback-blocks .feedback-block .title {
+  font-family: "Helvetica";
+  font-size: 20px;
+  margin-left: 20px;
+}
+.feedback .content .feedback-blocks .feedback-block .block {
+  font-family: "Helvetica";
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 210px;
+  height: 210px;
+  background: rgba(217, 217, 217, 0.4);
+  box-shadow: 0px 0px 30px -1px rgba(0, 0, 0, 0.25);
+}
+.feedback .content .feedback-blocks .feedback-block .block input {
+  font-family: "Helvetica";
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  outline: none;
+  width: 100%;
+  text-align: center;
+  border: 1px solid transparent;
+  background: transparent;
+}
+.feedback .content .feedback-blocks .bottom-blocks {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.feedback .content .feedback-blocks .bottom-blocks #area {
+  width: 70%;
+}
+.feedback .content .feedback-blocks .bottom-blocks #area #area-block {
+  width: 100%;
+  height: 107px;
+}
+.feedback .content .feedback-blocks .bottom-blocks .send-message {
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0px 0px 38px 2px rgba(0, 0, 0, 0.2);
+  margin-top: 28px;
+  color: #ffffff;
+  font-size: 20px;
+  background-image: url("../accets/sendBG.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 210px;
+  height: 107px;
+}
+.feedback .content .feedback-blocks .bottom-blocks .send-message:hover {
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 0px 36px 6px rgba(34, 60, 80, 0.34);
+  -moz-box-shadow: 0px 0px 36px 6px rgba(34, 60, 80, 0.34);
+  box-shadow: 0px 0px 36px 6px rgba(0, 0, 0, 0.34);
+}
+.feedback .content #email {
+  width: 100%;
+}
+.feedback .content #email #email-block {
+  width: 100%;
+  height: 110px;
+}
+.feedback .content #task {
+  width: 100%;
+}
+.feedback .content #task #task-block {
+  width: 100%;
+  height: 218px;
+}
+
+.footer {
+  background-image: url("../accets/footerBG.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 86px;
+  color: #ffffff;
+  font-size: 48px;
+}
+.footer .footer-label {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  float: right;
+  margin-right: 80px;
+}
+
+.button:hover {
+  border: 1px solid red;
+}
+
+@font-face {
+  font-family: "Forbiten";
+  src: url("../fonts/FoglihtenNo06_076.otf");
+}
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/4215-font.otf");
+}
+@media screen and (max-width: 1100px) {
+  .welcome .content {
+    margin-left: 0px;
+  }
+  .welcome .content .label {
+    text-align: center;
+  }
+  .welcome .content .title {
+    font-size: 24px;
+    text-align: center;
+  }
+  .welcome .content .button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .welcome .content .kostil-dwa {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .our-works .label {
+    margin-right: 0px;
+    text-align: center;
+    float: none;
+  }
+  .our-works .blocks .work-1 {
+    width: 60%;
+    height: 205px;
+    position: absolute;
+    left: 30%;
+  }
+  .our-works .blocks .work-2 {
+    width: 35%;
+    height: 600px;
+  }
+  .our-works .blocks .work-3 {
+    left: 30px;
+    width: 35%;
+    height: 300px;
+  }
+  .our-works .blocks .work-4 {
+    margin-top: 900px;
+    width: 50%;
+    height: 300px;
+    right: 30px;
+  }
+  .our-works .blocks .work-5 {
+    width: 60%;
+    height: 200px;
+    left: 40px;
+  }
+  .our-works .text {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+  .color .banner {
+    background-size: auto 100%;
+  }
+  .color .banner .block {
+    margin-left: 10px;
+  }
+  .color .banner .block .label {
+    margin-left: 10px;
+    font-size: 80px;
+  }
+  .d3 .content {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .d3 .content .armchair {
+    width: 100%;
+  }
+  .d3 .content .label-block .second-label {
+    font-size: 80px;
+    text-align: center;
+  }
+  .info {
+    flex-wrap: wrap;
+  }
+  .info .left-block-info {
+    width: 100%;
+  }
+  .info .left-block-info .content .info-label {
+    font-size: 36px;
+  }
+  .info .left-block-info .content .info-text {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+  }
+  .info .right-block-choose {
+    margin-top: 60px;
+  }
+  .rewiew .kostil {
+    display: flex;
+    justify-content: center;
+  }
+  .rewiew .design {
+    margin-bottom: 40px;
+    right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .rewiew .design .rewiewBG {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .rewiew .design .label {
+    text-align: center;
+    font-size: 80px;
+  }
+  .rewiew .rewiew-block {
+    width: 90%;
+    height: auto;
+    padding-bottom: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .rewiew .rewiew-block .work {
+    margin-top: 15px;
+  }
+  .rewiew .rewiew-block .label-inline .label {
+    font-size: 24px;
+  }
+  .rewiew .rewiew-block .text {
+    width: 80%;
+  }
+  .rewiew .kostil-dwa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .akira-banner {
+    background-size: auto 100%;
+  }
+  .akira-banner .label {
+    font-size: 80px;
+  }
+  .feedback {
+    display: none;
+  }
+  .footer {
+    background-size: auto 100%;
+  }
+  .break {
+    margin-top: 200px;
+  }
+}
+.rewiew-content {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../accets/infoBG.jpg");
+  background-size: 100%;
+}
+.rewiew-content .label {
+  font-size: 80px;
+}
+.rewiew-content .text {
+  font-family: "Helvetica";
+  text-align: center;
+}
+.rewiew-content .kostil {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.rewiew-content .kostil .button {
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: "Helvetica";
+  width: 381px;
+  border: 1px solid #9d9c9a;
+  background-color: rgba(217, 217, 217, 0.4);
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 46px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.rewiew-content .kostil .button:hover {
+  transition: 0.3s;
+  -webkit-box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+  -moz-box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+  box-shadow: 0px 0px 36px -6px rgba(34, 60, 80, 0.14);
+}
+
+@media screen and (max-width: 500px) {
+  .welcome .content {
+    padding-top: 100px;
+  }
+  .welcome .content .label {
+    border: 1px solid red;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
