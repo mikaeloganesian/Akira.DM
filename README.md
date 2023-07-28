@@ -1,2 +1,2 @@
 # Akira.DM
-Сайт-портфолио web-студии Akira.DM
+Сайт web-студии Akira.DM
